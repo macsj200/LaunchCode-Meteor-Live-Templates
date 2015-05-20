@@ -1,7 +1,7 @@
 # LaunchCode Meteor WebStorm Live Templates
 
 ## Installation
-To install, place the relevant xml files in your templates directory.
+To install, place the Meteor.xml file in your templates directory.
 
 Live templates are stored in the following location:
 
