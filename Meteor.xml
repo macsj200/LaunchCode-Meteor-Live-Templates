@@ -1,0 +1,24 @@
+<templateSet group="Meteor">
+  <template name="Template!!" value="&lt;template name=&quot;$name$&quot;&gt;&#10;    &#10;&lt;/template&gt;" description="Insert Meteor template" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="Helpers!!" value="Template.$name$.helpers({&#10;    $fieldName$: function(){&#10;        return Session.get('$fieldName$');    &#10;    }&#10;});" description="Meteor helper functions" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="Events!!" value="Template.$name$.events({&#10;    '$eventName$ $cssSelector$': function(event){&#10;        // Respond to event  &#10;    }&#10;});" description="Meteor events" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="eventName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cssSelector" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
