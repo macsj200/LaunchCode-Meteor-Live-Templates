@@ -21,4 +21,20 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="Collection!!" value="$collectionName$ = new Mongo.Collection('$collectionName$');" description="Meteor collection" toReformat="false" toShortenFQNames="true">
+    <variable name="collectionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="Client!!" value="if (Meteor.isClient){&#10;    //Client only code here&#10;    &#10;}" description="Meteor client block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="Server!!" value="if (Meteor.isServer){&#10;    //Server only code here&#10;}" description="Meteor server block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
