@@ -20,3 +20,6 @@ After typing a live template name, press the tab key to fill in the template.  T
 * Template!! - Creates a new Meteor HTML template
 * Events!! - Creates a new set of Meteor events
 * Helpers!! - Creates a new set of Meteor helpers
+* Client!! - Creates a new client only block of code
+* Server!! - Creates a new server only block of code
+* Collection!! - Creates a new Mongo.Collection
